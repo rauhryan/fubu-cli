@@ -1,10 +1,8 @@
 require "bundler/gem_tasks"
-
-$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
-
-require "fubu/ripple"
+require 'ripple-cli'
 
 desc "Update cli"
 task :update do
-  Ripple.new.update
+  engine = Ripple::Engine.new
+  engine.update
 end
