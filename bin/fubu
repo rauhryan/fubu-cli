@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 
-system("fubu_exe/fubu.exe", *ARGV)
+system("#{File.dirname(__FILE__)}/fubu_exe/fubu.exe", *ARGV)
