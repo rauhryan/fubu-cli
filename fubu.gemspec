@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{installs various command line tools for the fubu family of projects}
   gem.homepage      = ""
 
-  gem.files         = ["bin/fubu"]
+  gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
