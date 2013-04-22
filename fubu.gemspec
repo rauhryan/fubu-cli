@@ -16,6 +16,5 @@ Gem::Specification.new do |gem|
   gem.executables   = ["fubu"]
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
-  gem.add_dependency "thor", "~> 0.14"
   gem.add_dependency "ripple-cli", "~> 0.0.1"
 end
