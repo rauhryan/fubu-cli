@@ -5,6 +5,6 @@ $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require "fubu/ripple"
 
 desc "Update cli"
-task :update do 
+task :update do
   Ripple.new.update
 end
