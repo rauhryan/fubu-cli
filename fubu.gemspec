@@ -6,8 +6,8 @@ require 'fubu/version'
 Gem::Specification.new do |gem|
   gem.name          = "fubu"
   gem.version       = Fubu::VERSION
-  gem.authors       = ["Ryan Rauh"]
-  gem.email         = ["rauh.ryan@gmail.com"]
+  gem.authors       = ["Ryan Rauh", "Matt Smith"]
+  gem.email         = ["rauh.ryan@gmail.com", "mtscout6@gmail.com"]
   gem.description   = %q{Quickly install fubu command line tools}
   gem.summary       = %q{installs various command line tools for the fubu family of projects}
   gem.homepage      = ""
