@@ -13,6 +13,8 @@ class Ripple < Thor
     move_files
   end
 
+  private 
+
   def move_files
      Dir.glob("*/packages/**tools").each do |tool|
        puts /packages\/(\w+)\/tools/.match(tool)[0]
